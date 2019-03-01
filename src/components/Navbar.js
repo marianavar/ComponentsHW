@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import '../App.js';
 
-const Navbar = () => {
+class Navbar extends Component {
+    render () {
   return (
 <nav>
       <ul>
@@ -20,5 +23,6 @@ const Navbar = () => {
     </nav>
   )
 }
+}
 
-export default Navbar
+export default Navbar;

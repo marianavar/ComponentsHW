@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import '../App.js';
 
-const Footer = () => {
-  return (
-    <main id="about-me">
-      <h4>footer....</h4>
-    </main>
-  )
+class Footer extends Component {
+    render(){
+        return(
+            <div></div>
+        )
+    }
 }
 
-export default Footer
+
+export default Footer;

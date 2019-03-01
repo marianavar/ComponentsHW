@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import Projects from './components/Projects'
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import Contact from './components/Contact'
-import SocialLinks from './components/SocialLinks'
-import Resume from './components/Resume'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Home from './components/Home';
+import Main from './components/Main';
+import Resume from './components/Resume';
+import SocialLinks from './components/SocialLinks';
+import Projects from './components/Projects';
+
 
 
 class App extends Component {
@@ -17,8 +20,8 @@ class App extends Component {
         <Navbar />
         <Home />
         <Main />
-        <Resume />
         <Projects />
+        <Resume />
         <Contact />
         <SocialLinks />
         <Footer />

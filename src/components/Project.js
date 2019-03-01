@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import '../App.js';
 
 class Project extends Component {
   render() {
